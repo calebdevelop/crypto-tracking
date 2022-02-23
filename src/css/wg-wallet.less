@@ -1,0 +1,83 @@
+.wg-wallet {
+
+    .wallet-head {
+        text-align: center;
+        color: #ccc;
+
+        h3 {
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        h5 {
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .total-price {
+            font-size: 2em;
+            font-weight: 600;
+        }
+    }
+    
+    .wallet-list-wrapper {
+        list-style: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+
+        .wallet-item {
+            display: flex;
+            border-bottom: 1px solid #6d6a6a;
+            padding: 15px 10px;
+
+            .logo-wrapper {
+                padding: 0 10px 0 0 ;
+            }
+
+            .description-wrapper{ 
+                color: #ccc;
+                .price {
+                    display: block;
+                }
+            }
+
+            .profit-wrapper {
+                margin-left: auto;
+                color: #ccc;
+                text-align: right;
+
+                .price {
+                    margin-bottom: 4px;
+                }
+
+                .profit {
+                    display: block;
+                    padding-top: 5px;
+
+                    .green {
+                        color: #27bb27;
+
+                        span {
+                            background: #00800052;
+                        }
+                    }
+
+                    .red {
+                        color: #dc3a3a;
+
+                        span {
+                            background: #ff000059;                            
+                        }
+                    }
+
+                    span {
+                        margin-left: 5px;
+                        padding: 2px 5px;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.wg-wallet .wallet-list-wrapper {
+  list-style: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item {
+  display: flex;
+  border-bottom: 1px solid #6d6a6a;
+  padding: 15px 10px;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .logo-wrapper {
+  padding: 0 10px 0 0 ;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .description-wrapper {
+  color: #fff;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .description-wrapper .price {
+  display: block;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper {
+  margin-left: auto;
+  color: #fff;
+  text-align: right;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper .price {
+  margin-bottom: 4px;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper .profit {
+  display: block;
+  padding-top: 5px;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper .profit .green {
+  color: #27bb27;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper .profit .green span {
+  background: #00800052;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper .profit .red {
+  color: #dc3a3a;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper .profit .red span {
+  background: #ff000059;
+}
+.wg-wallet .wallet-list-wrapper .wallet-item .profit-wrapper .profit span {
+  margin-left: 5px;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=wg-wallet.css.map */
